@@ -1,0 +1,11 @@
+<h1> All Inventory </h1>
+
+<p>Below are all inventory items that you carry and track.</p>
+
+<div>
+  <ul>
+    <li ng-repeat="inv in inventory_items">
+      <span>{{inv.name}}</span><span>{{inv.amount}}</span>
+    </li>
+  </ul>
+</div>
